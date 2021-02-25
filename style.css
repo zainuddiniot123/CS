@@ -1,0 +1,365 @@
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.my-navbar{
+	background: #EDB400;
+	color: white;
+}
+
+.my-navlink{
+	color: #155644;
+	transition: ease 0.4s;
+}
+
+.my-navlink:hover{
+	color: #08211b;
+	font-weight: bold;
+}
+
+.my-active{
+	color: #08211b;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+.my-h3{
+	color: darkgrey;
+	font-weight: lighter;
+}
+
+.my-h5{
+	color: darkgrey;
+	font-weight: lighter;
+}
+
+main{
+	background-image: url("Bg-01.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+.sec1{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.my-logo{
+	width: 10rem;
+}
+
+.brands{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	text-align: center;
+	padding: 1rem;
+}
+
+.brand1{
+	color: white;
+	margin: 0.2rem;
+	text-align: center;
+	font-size: 0.7rem;
+}
+
+.my-sec2{
+	width: 100%;
+	border-radius: 2rem;
+	background: rgba(255,255,255,0.8);
+	margin-bottom: 2rem;
+	padding-top: 2rem;
+}
+
+.my-inner-sec2{
+	border-radius: 2rem;
+	border: solid 3px #155644;
+	align-items: center;
+	text-align: center;
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.my-h4{
+	font-weight: lighter;
+	color: #155644;
+}
+
+.my-h2{
+	color: #155644;
+	text-align: center;
+}
+
+.my-select{
+	border: solid 1px #155644;
+	border-radius: 3rem;
+	background: none;
+	color: #29ab87;
+	width: 100%;
+}
+.my-select:hover{
+	cursor: pointer;
+}
+
+.my-select option{
+	color: black;
+}
+
+.my-input{
+	border: solid 1px #155644;
+	border-radius: 3rem;
+	background: none;
+	color: #29ab87;
+}
+
+.my-txtarea{
+	width: 100%;
+	border: solid 1px #155644;
+	border-radius: 0.5rem;
+	background: none;
+	color: #29ab87;
+}
+
+.my-btn{
+	width: 100%;
+	border-radius: 3rem;
+	border: solid 1px #29ab87;
+	background: none;
+	color: #29ab87;
+	transition: ease 0.4s;
+}
+
+.my-btn:hover{
+	background-color: #29ab87;
+	color: white;
+	font-weight: bold;
+}
+
+/*
+.car-div{
+	width: 35rem;
+	margin-left: -9rem;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	padding-left: 0;
+}
+
+@media screen and (max-width: 600px){
+	.car-div{
+	width: 20rem;
+	margin-left: 0rem;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	padding-left: 0;
+	}
+}
+*/
+/*
+
+.my-h1{
+	color: white;
+	text-align: center;
+	position: relative;
+}
+
+.my-h1:before{
+	content: "";
+	display: block;
+	width: 10rem;
+	height: 0.3rem;
+	background: white;
+	position: absolute;
+	left: 30%;
+	top: 50%;
+}
+
+.my-h1:after{
+	content: "";
+	display: block;
+	width: 10rem;
+	height: 0.3rem;
+	background: white;
+	position: absolute;
+	right: 30%;
+	top: 50%;
+}
+*/
+/*
+
+@media screen and (max-width: 600px){
+	.my-h1{
+	color: white;
+	text-align: center;
+		position: relative;
+	
+}
+
+.my-h1:before{
+	content: "";
+	display: block;
+	width: 3rem;
+	height: 0.1rem;
+	background: white;
+	position: absolute;
+	left: 10%;
+	top: 50%;
+}
+
+.my-h1:after{
+	content: "";
+	display: block;
+	width: 3rem;
+	height: 0.1rem;
+	background: white;
+	position: absolute;
+	right: 10%;
+	top: 50%;
+}
+}
+*/
+
+.my-bar{
+	background: rgb(0,112,89);
+background: linear-gradient(90deg, rgba(0,112,89,1) 0%, rgba(0,31,36,1) 100%);
+	width: 100%;
+	height: 10rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	text-align: center;
+	padding: 1rem;
+}
+
+@media screen and (max-width: 600px){
+	.my-bar{
+	background: rgb(0,112,89);
+background: linear-gradient(90deg, rgba(0,112,89,1) 0%, rgba(0,31,36,1) 100%);
+	width: 100%;
+	height: 20rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	text-align: center;
+	
+}
+}
+
+.icon1{
+	width: 4rem;
+	height: 4rem;
+	color: white;
+	margin: 0.2rem;
+	text-align: center;
+	font-size: 0.7rem;
+}
+
+.clip-div{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.clip-box{
+	width: 12rem;
+	height: 2rem;
+	text-align: center;
+	color: white;
+	clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+	background: #28A683;
+	border-radius: 1.5rem 1.5rem 0 0;
+	margin-top: 2rem;
+}
+
+.clip-box span {
+	font-size: 0.8rem;
+}
+
+.h5-bg{
+	background: #EDB400;
+	color: white;
+	width: 24rem;
+	height: 2rem;
+}
+
+@media screen and (max-width:600px){
+	.h5-bg{
+	background: #EDB400;
+	color: white;
+	width: 18rem;
+	height: 3rem;
+}
+}
+
+.sel-main{
+	border: solid 2px #EDB400;
+}
+
+.sel-div{
+	background: #EDB400;
+	color: white;
+	width: 100%;
+	height: 3rem;
+	text-align: center;
+}
+
+.my-footer{
+	background: rgb(40,166,131);
+background: linear-gradient(90deg, rgba(40,166,131,1) 0%, rgba(30,122,98,1) 100%);
+	color: white;
+}
+
+.ft-text-clr{
+	color: #EDB400;
+}
+
+.my-pay{
+	height: 10rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	text-align: center;
+	padding: 1rem;
+}
+
+.pay1{
+	width: 3rem;
+	height: 3rem;
+	color: white;
+	margin: 0.2rem;
+	text-align: center;
+	font-size: 0.7rem;
+}
+
+.foot-cp{
+	background: #0B3329;
+	color: white;
+	text-align: center;
+	margin-bottom: 0;
+	padding-top: 1rem;
+	height: 3rem;
+}
+
+.my-btn2{
+	width: 100%;
+	border-radius: 3rem;
+	border: solid 1px #29ab87;
+	background: none;
+	color: #29ab87;
+	transition: ease 0.4s;
+}
+
+.my-btn2:hover{
+	background-color: #29ab87;
+	color: white;
+	font-weight: bold;
+}
